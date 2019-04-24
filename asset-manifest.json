@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/TD-React-Challenge-Test-1/static/css/main.584f321a.chunk.css",
-    "main.js": "/TD-React-Challenge-Test-1/static/js/main.e61ef416.chunk.js",
-    "main.js.map": "/TD-React-Challenge-Test-1/static/js/main.e61ef416.chunk.js.map",
-    "runtime~main.js": "/TD-React-Challenge-Test-1/static/js/runtime~main.5357ad34.js",
-    "runtime~main.js.map": "/TD-React-Challenge-Test-1/static/js/runtime~main.5357ad34.js.map",
-    "static/js/2.b41502e9.chunk.js": "/TD-React-Challenge-Test-1/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/TD-React-Challenge-Test-1/static/js/2.b41502e9.chunk.js.map",
-    "index.html": "/TD-React-Challenge-Test-1/index.html",
-    "precache-manifest.a2edfba51b84992b2c38e5eb434db93f.js": "/TD-React-Challenge-Test-1/precache-manifest.a2edfba51b84992b2c38e5eb434db93f.js",
-    "service-worker.js": "/TD-React-Challenge-Test-1/service-worker.js",
-    "static/css/main.584f321a.chunk.css.map": "/TD-React-Challenge-Test-1/static/css/main.584f321a.chunk.css.map",
-    "static/media/logo.svg": "/TD-React-Challenge-Test-1/static/media/logo.5d5d9eef.svg"
+    "main.css": "/My-React/static/css/main.584f321a.chunk.css",
+    "main.js": "/My-React/static/js/main.34359dd3.chunk.js",
+    "main.js.map": "/My-React/static/js/main.34359dd3.chunk.js.map",
+    "runtime~main.js": "/My-React/static/js/runtime~main.7589b83f.js",
+    "runtime~main.js.map": "/My-React/static/js/runtime~main.7589b83f.js.map",
+    "static/js/2.b41502e9.chunk.js": "/My-React/static/js/2.b41502e9.chunk.js",
+    "static/js/2.b41502e9.chunk.js.map": "/My-React/static/js/2.b41502e9.chunk.js.map",
+    "index.html": "/My-React/index.html",
+    "precache-manifest.474cd86c163d3339ddeb0a4f5a4d4030.js": "/My-React/precache-manifest.474cd86c163d3339ddeb0a4f5a4d4030.js",
+    "service-worker.js": "/My-React/service-worker.js",
+    "static/css/main.584f321a.chunk.css.map": "/My-React/static/css/main.584f321a.chunk.css.map",
+    "static/media/logo.svg": "/My-React/static/media/logo.5d5d9eef.svg"
   }
 }
