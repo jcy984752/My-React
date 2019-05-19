@@ -19,33 +19,32 @@ class App extends React.Component {
           <div className="content">
             <Switch>
             <Route exact path='/' component={HomePage}/>
-              <Route path='/colors' component={ColorsPage}/>
-              <Route path='/icons' component={IconPage}/>
-              <Route path='/components/button' component={ComponentsPages.ButtonPage}/>
-              <Route path='/components/table' component={ComponentsPages.TablePage}/>
-              <Route path='/components/treeTable' component={ComponentsPages.TreeTablePage}/>
-              <Route path='/components/tabs' component={ComponentsPages.TabsPage}/>
-              <Route path='/components/spinner' component={ComponentsPages.SpinnerPage}/>
-              <Route path='/components/progress' component={ComponentsPages.ProgressPage}/>
-              <Route path='/components/messageBar' component={ComponentsPages.MessageBarPage}/>
-              <Route path='/components/notification' component={ComponentsPages.NotificationPage}/>
-              <Route path='/components/dialog' component={ComponentsPages.DialogPage}/>
-              <Route path='/components/avatar' component={ComponentsPages.AvatarPage}/>
-              <Route path='/components/markdown' component={ComponentsPages.MarkdownPage}/>
-              <Route path='/icons' component={IconPage}/>
-              <Route path='/charts/bar' component={ChartsPages.Bar}/>
-              <Route path='/charts/stackbar' component={ChartsPages.StackedBar}/>
-              <Route path='/charts/area' component={ChartsPages.Area}/>
-              <Route path='/charts/line' component={ChartsPages.Line}/>
-              <Route path='/charts/pie' component={ChartsPages.Pie}/>
-              <Route path='/charts/scatterplot' component={ChartsPages.Scatterplot}/>
-              <Route component={NotFoundPage}/>
+                  <Route path='/colors' component={ColorsPage}/>
+                  <Route path='/icons' component={IconPage}/>
+                  <Route path='/components/button' component={ComponentsPages.ButtonPage}/>
+                  <Route path='/components/table' component={ComponentsPages.TablePage}/>
+                  <Route path='/components/treeTable' component={ComponentsPages.TreeTablePage}/>
+                  <Route path='/components/tabs' component={ComponentsPages.TabsPage}/>
+                  <Route path='/components/spinner' component={ComponentsPages.SpinnerPage}/>
+                  <Route path='/components/progress' component={ComponentsPages.ProgressPage}/>
+                  <Route path='/components/messageBar' component={ComponentsPages.MessageBarPage}/>
+                  <Route path='/components/notification' component={ComponentsPages.NotificationPage}/>
+                  <Route path='/components/dialog' component={ComponentsPages.DialogPage}/>
+                  <Route path='/components/avatar' component={ComponentsPages.AvatarPage}/>
+                  <Route path='/components/markdown' component={ComponentsPages.MarkdownPage}/>
+                  <Route path='/components/badge' component={ComponentsPages.BadgePage}/>
+                  <Route path='/components/expansion-panel' component={ComponentsPages.ExpansionPanelPage}/>
+                  <Route path='/charts/bar' component={ChartsPages.Bar}/>
+                  <Route path='/charts/hexbin' component={ChartsPages.Hexbin}/>
+                  <Route path='/charts/stackbar' component={ChartsPages.StackedBar}/>
+                  <Route path='/charts/area' component={ChartsPages.Area}/>
+                  <Route path='/charts/line' component={ChartsPages.Line}/>
+                  <Route path='/charts/pie' component={ChartsPages.Pie}/>
+                  <Route path='/charts/scatterplot' component={ChartsPages.Scatterplot}/>
+                  <Route component={NotFoundPage}/>
             </Switch>
           </div>
-          <div className='footer'> 
-            <Footer/>
-          </div>
-          
+            <Footer/>         
         </div>
       </div>
       </HashRouter>

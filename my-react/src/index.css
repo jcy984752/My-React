@@ -6,7 +6,7 @@
 }
 html {
   width: 100%;
-  height: 100%;
+  height: 700px;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -136,6 +136,26 @@ iframe {
 #root.no-margin-left {
   margin-left: 0;
 }
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+  border-top: 1px solid #cecece;
+}
+.margin-left .footer {
+  width: calc(100% - 230px);
+}
+@media screen and (max-width: 568px) {
+  .footer {
+    position: relative;
+  }
+  .margin-left .footer {
+    width: 100%;
+  }
+}
 .not-found-page {
   text-align: center;
 }
@@ -156,14 +176,14 @@ iframe {
   background-color: #eee !important;
 }
 .demo-avatar > div {
-  padding: 10px 20px;
+  padding: 10px 20px 50px 30px;
 }
 .demo-avatar > div h4 {
   color: #4b7aa8;
   padding-bottom: 10px;
 }
 .example-template .demo-body {
-  padding: 10px 2px;
+  padding: 20px 2px;
 }
 .example-template .demo-title {
   color: #5c7b98;
@@ -174,10 +194,16 @@ iframe {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  text-align: center;
+  height: 100%;
 }
 .demo-dialog {
   text-align: center;
   margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 .demo-dialog-content {
   padding: 20px;
@@ -192,8 +218,18 @@ iframe {
   padding: 20px;
   text-align: right;
 }
+.expansion-panel {
+  margin: auto !important;
+}
+.expansion-panel > .expansion-panel-summary {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #dddbdb;
+}
+.demo-expansion-panel {
+  padding: 100px;
+}
 .messageBar {
-  padding: 15px 10px;
+  padding: 15px 10px 60px 10px;
   max-width: 350px;
   margin: auto;
 }
@@ -230,6 +266,8 @@ iframe {
 .demo-notification-wrapper {
   margin: auto;
   text-align: center;
+  height: 100%;
+  padding: 200px 10px;
 }
 .demo-notification-wrapper button {
   font-weight: bold;
@@ -272,6 +310,16 @@ iframe {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  height: 100%;
+}
+.demo-tabs .example-body-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.home-page .paper {
+  overflow: auto;
+  height: 560px;
 }
 .icon-page .icon {
   width: 50px;
@@ -299,6 +347,38 @@ iframe {
   padding: 10px 20px 20px 20px;
   text-align: right;
 }
+.paper {
+  padding: 20px 20px;
+  text-align: left;
+}
+.flex-around-center-wrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.flex-x-space-evenly {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.demo-charts .example-body div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+pre {
+  background-color: #f2f6fa !important;
+  padding: 15px !important;
+  overflow: auto !important;
+  max-height: 100%;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+}
 .example-template,
 .example-template > div:first-child {
   height: 100%;
@@ -311,10 +391,18 @@ iframe {
   padding: 15px;
   max-height: calc(100% - 58px) !important;
   overflow: auto;
+  height: 560px;
+}
+.example-template .example-body > .example-body-markdown {
   height: 100%;
+  width: 100%;
 }
 .example-template .tab {
   padding: 15px;
+}
+.example-template .example-body-content {
+  height: 100%;
+  margin: auto;
 }
 header.top .toolbar {
   display: flex;
@@ -349,8 +437,7 @@ width 60px > a,
   color: inherit;
 }
 .App {
-  max-height: 100vh;
-  height: 100vh;
+  height: 100%;
 }
 @media screen and (max-width: 568px) {
   .App {
@@ -360,18 +447,13 @@ width 60px > a,
   }
 }
 .content {
-  padding: 25px 35px;
+  padding: 15px 35px 67px 35px;
   line-height: 1.5em;
   width: 100%;
-  height: 100%;
+  height: 700px;
 }
 .content > div:first-child {
   height: 100%;
-}
-.footer {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
 }
 .main {
   text-align: center;
@@ -387,11 +469,10 @@ width 60px > a,
   margin-left: 230px;
 }
 .side-bar {
-  height: calc(100% - 64px);
+  height: 100%;
   width: 230px;
   position: fixed;
   overflow-y: auto;
-  padding: sideBarPadding;
   border-right: 1px solid #cecece;
 }
 .side-bar .nested {

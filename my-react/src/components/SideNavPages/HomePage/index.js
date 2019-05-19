@@ -4,7 +4,7 @@ import {Paper} from '../../';
 
 function HomePage(props){
   return(
-    <div className="home-page">
+    
       <div className="content">
         <Paper className="paper">
           <h1>Hi! Welcome to my Material UI Showcase App!</h1>
@@ -18,7 +18,7 @@ function HomePage(props){
           </p>
         </Paper>
       </div>
-    </div>
+    
   )
 
 }

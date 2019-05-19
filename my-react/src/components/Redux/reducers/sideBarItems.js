@@ -23,11 +23,6 @@ const sideBarState = {
           icon: 'NavigateNext'
         },
         {
-          label: 'Badge',
-          url: BASE_URL + 'components/badge',
-          icon: 'NavigateNext'
-        },
-        {
           label: 'Button',
           url: BASE_URL + 'components/button',
           icon: 'NavigateNext'
@@ -87,11 +82,6 @@ const sideBarState = {
         {
           label: 'Bar',
           url: BASE_URL + 'charts/bar',
-          icon: 'NavigateNext'
-        },
-        {
-          label: 'Hexbin',
-          url: BASE_URL + 'charts/hexbin',
           icon: 'NavigateNext'
         },
         {

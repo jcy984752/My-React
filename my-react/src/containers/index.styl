@@ -1,12 +1,12 @@
 sideBarWidth = 230px
 navBarHeight = 64px
-contentPadding = 25px 35px
+contentPadding = 15px 35px 67px 35px
 mainDivWidth = 100vw - sideBarWidth
 
 
 .App
-  max-height: 100vh
-  height: 100vh
+  height: 100%
+  
 
   @media screen and (max-width: 568px)
     padding-top: navBarHeight - 8px;
@@ -17,15 +17,10 @@ mainDivWidth = 100vw - sideBarWidth
   padding: contentPadding
   line-height: 1.5em;
   width: 100%;
-  height: 100%;
+  height: 700px;
   & > div:first-child
     height: 100%
-
-.footer
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-
+    
 .main
   text-align: center;
   width: 100vw;
@@ -37,3 +32,4 @@ mainDivWidth = 100vw - sideBarWidth
 
 .margin-left
   margin-left: sideBarWidth
+
